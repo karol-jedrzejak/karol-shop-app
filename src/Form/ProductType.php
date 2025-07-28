@@ -34,7 +34,7 @@ class ProductType extends AbstractType
                     'label_attr' => [
                         'class' => 'text-gray-700 font-semibold',
                     ],
-                    'constrains' => [
+                    'constraints' => [
                         new File([
                             'maxSize' => '2M',
                             'mimeTypes' => [
